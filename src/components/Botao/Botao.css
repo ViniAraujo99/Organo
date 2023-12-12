@@ -1,0 +1,11 @@
+.botao button {
+  border-radius: 8px;
+  background: #6278f7;
+  color: #fff;
+  padding: 16px;
+  font-weight: 700;
+}
+
+.botao button:hover {
+  color: #95ffd4;
+}

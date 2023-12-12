@@ -1,0 +1,46 @@
+.footer {
+  background: #6278f7 url("../../img/fundo.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 213px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 55px;
+}
+
+.footer div a {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer div a img {
+  width: 100%;
+  max-width: 24px;
+}
+
+.footer img {
+  width: 100%;
+  max-width: 128px;
+}
+
+.footer p {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-wrap: nowrap;
+  }
+}

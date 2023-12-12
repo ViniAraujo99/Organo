@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  position: relative;
+  text-align: center;
+  max-width: 200px;
+  width: 100%;
+}
+
+.card .deletar {
+  position: absolute;
+  top: -5%;
+  left: 93.5%;
+  background: transparent;
+  background-color: red;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .editar {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  background: transparent;
+  background-color: rgb(161, 161, 161);
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .editar::after {
+  content: "\270E";
+}
+
+.card .deletar::after {
+  content: "\2716";
+}
+
+.card .img-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  height: 64px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 96px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .text-container {
+  width: 100%;
+  padding: 15px;
+  padding-top: 48px;
+  background-color: #ffffff;
+}
+
+.card h4 {
+  color: #6278f7;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.favorito {
+  background: none;
+  margin-top: 20px;
+}

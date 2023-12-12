@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: #6278f7;
+  font-family: "Prata", "Arial", sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+h2::after {
+  content: "";
+  width: 30px;
+  display: flex;
+  margin: 10px auto;
+  border-bottom: 3px solid #6278f7;
+  border-radius: 50px;
+}

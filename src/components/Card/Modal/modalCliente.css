@@ -1,0 +1,26 @@
+.modalCliente {
+  position: absolute;
+  z-index: 1;
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  top: 0%;
+  border: 2px solid black;
+}
+
+.modalCliente .campo {
+  margin: 0;
+}
+.modalCliente label {
+  margin-bottom: 5px;
+}
+
+.modalCliente input {
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.modalCliente .listaSuspensa {
+  margin: 0 0 10px;
+}
