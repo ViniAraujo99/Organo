@@ -96,6 +96,7 @@
 }
 
 .card p {
+  overflow-wrap: break-word;
   font-size: 12px;
 }
 
