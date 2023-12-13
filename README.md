@@ -10,7 +10,7 @@ Possibilidade de remover os setores.<br/>
 Possibilidade de editar o funcionário separadamente reaproveitando os campos do formulário inicial, mas podendo preenche-los individualmente.<br/>
 Validação da exclusão do funcionário ou setor.<br/>
 Alteração do nome do setor (sobrescrevendo o anterior e atualizando todos os funcionários e listas).<br/>
-Utilização do localStorage para armazenar as informações passadas pelo usuário, permitindo manter o histórico dos dados armazenados.<br/>
+Utilização do localStorage para armazenar as informações passadas pelo usuário, permitindo manter o histórico dos dados.<br/>
 Responsividade (width de corte: 320px/ 768px / 1080px).<br/>
 
 
