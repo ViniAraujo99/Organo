@@ -61,6 +61,8 @@ export const Card = ({
       <div className="text-container">
         <h4>{funcionario.nome}</h4>
         <p>{funcionario.cargo}</p>
+      </div>
+      <div className="favorito-container">
         <button className="favorito" onClick={favoritar}>
           {funcionario.favorito ? (
             <AiFillHeart size={25} color="#FF0000" />

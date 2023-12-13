@@ -10,7 +10,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   column-gap: 25px;
 }
